@@ -45,7 +45,9 @@
     width: 32px;
   }
   
-  
+  .container {
+    display: flex;
+    justify-content: space-between;  }
 
   .Button {
     background-color: rgb(42, 157,143);
@@ -96,7 +98,8 @@
 .MainContent {
     display: flex;
     margin-left: 24px;
-    justify-content: space-between;
+    /* width: auto; */
+    /* justify-content: space-between; */
 }
 
 .Herotext{
@@ -130,8 +133,13 @@ p{
   .description {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     text-align: center;
-    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 90%;
+    /* padding: 50px; */
   }
 
 .SidebarBG {
@@ -140,29 +148,56 @@ p{
 
 .card {
     display: flex;
-    /* flex-wrap: wrap ; */
+    width: auto;
+    flex-wrap: wrap ;
     padding: 10px;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
-    background-color: rgba(227, 227, 227, 0.398);
+    /* background-color: rgba(227, 227, 227, 0.398); */
    
 }
 .cardContent {
     text-align: center;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px;
+    /* background-color: rgba(189, 189, 189, 0.636); */
+}
+.cardBox {
+    text-align: center;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 30px;
+    gap: 5px;
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px rgba(19, 77, 70, 0.377);
 }
 
-.football {
-    width: 180px;
+.cardBox:hover {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 250px;
+    height: 350px;
+    box-shadow: 10px 5px 5px rgba(19, 77, 70, 0.744);
+}
+
+.cardImage {
+    width: 250px;
 }
 
 .footer {
     color: rgba(119, 119, 119, 0.6);
-    display: flex;
     justify-content: center;
     padding: 30px;
 
@@ -194,3 +229,4 @@ p{
         display: none;
     }
   }
+

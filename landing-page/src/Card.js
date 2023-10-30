@@ -6,9 +6,11 @@ function Card(props) {
   return (
     <>
         <div class="cardContent">
-            <div > <img class='football' src={props.image} /> </div>
-            <p>{props.copy}</p>
-            <Button />
+            <div class="cardBox">
+                <div > <img class='cardImage' src={props.image} /> </div>
+                <div>{props.copy}</div>
+                <Button />
+            </div>
         </div>
     </>
   )
