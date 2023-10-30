@@ -1,6 +1,7 @@
 import React from 'react'
 import "./style.css"
 import logo from "./Resources/logo.svg"
+import MenuBar from "./Resources/MenuBar.svg"
 
 function Navbar() {
   return (
@@ -12,12 +13,14 @@ function Navbar() {
                 <div class="menus">
                     <div>Home</div>
                     <div>About</div>
-                    <div>Projects</div>
+                    <div>Sports</div>
+                    <div>Facilities</div>
+                    <div>Membership</div>
                     <div>Contact</div>
                     <div class= "Button"> Enrol Today</div>
                 </div>
                 <div class="navBarBtnSmallScreen">
-                    <img src="../src/Resources/menu icon.svg" />
+                <div class="MenuBar"><img src={MenuBar} /></div>
                 </div>
             </div>
         </div>

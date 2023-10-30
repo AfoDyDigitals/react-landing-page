@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
   <defs>
     <style>
       .cls-1, .cls-2 {
@@ -16,6 +16,6 @@
       }
     </style>
   </defs>
-  <text id="F" class="cls-1" transform="translate(-2.936 40.27) scale(1.459)">F</text>
-  <text id="F-2" data-name="F" class="cls-2" transform="translate(53.358 10.443) rotate(180) scale(1.46 1.461)">F</text>
+  <text id="F" class="cls-1" transform="translate(-2.17 26.101) scale(0.953)">F</text>
+  <text id="F-2" data-name="F" class="cls-2" transform="translate(34.592 6.623) rotate(180) scale(0.954 0.954)">F</text>
 </svg>

@@ -1,11 +1,19 @@
 import React from 'react'
-import NavBar from './Navbar';
+import NavBar from './Navbar'
+import SideBar from './SideBar'
+import Body from './Body';
 
 function App() {
   return (
     <>
-    <div className='bg-yellow-300'>
-      <NavBar />
+    <div>
+        <NavBar />
+      <div class="MainContent">
+        <div>
+        <Body />
+        </div>
+        <SideBar />
+      </div>
     </div>
     </>
   )
